@@ -1,5 +1,5 @@
 ﻿# Laboratorio Módulo 2
-## Ejercicio 1.
+## Ejercicio 2.
 ### Nombres y apellidos:
 Miguel Ángel Caberero Luengo
 ### Fecha:
@@ -13,8 +13,12 @@ El objetivo del ejercicio es mostrar dos páginas:
 <br>La segunda muestra:
 - Información acerca de la empresa.
 
+En ambas páginas aplicarles una hoja de estilos
+
 ### Dificultad o problemas presentados y cómo se resolvieron:
 No ha tenido dificultad ya que es una página muy básica.
+
+A la práctica 1 del módulo 2, se le añade una carpeta para incluir la hoja de estilos. A cada fichero html se le añade la referencia a la hoja de estilos incluida.
 
 Puede probarse con los siguientes enlaces:
 
