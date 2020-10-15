@@ -1,5 +1,5 @@
 ﻿# Laboratorio Módulo 2
-## Ejercicio 1.
+## Exercise 1: Creating HTML5 Pages
 ### Nombres y apellidos:
 Miguel Ángel Caberero Luengo
 ### Fecha:

@@ -1,5 +1,5 @@
 ﻿# Laboratorio Módulo 2
-## Ejercicio 2.
+## Exercise 2: Styling HTML pages
 ### Nombres y apellidos:
 Miguel Ángel Caberero Luengo
 ### Fecha:
