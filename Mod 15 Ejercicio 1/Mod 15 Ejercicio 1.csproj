@@ -7,7 +7,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{0B2387DB-F986-4A3C-9C85-545E64BC4470}</ProjectGuid>
+    <ProjectGuid>{A7C2B165-D4C6-458C-91B3-BB49A98D12EC}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -88,6 +88,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="about.htm" />
+    <Content Include="dist\feedback.bundle.js" />
+    <Content Include="dist\live.bundle.js" />
+    <Content Include="dist\location.bundle.js" />
+    <Content Include="dist\locationVenue.bundle.js" />
+    <Content Include="dist\offline.bundle.js" />
+    <Content Include="dist\register.bundle.js" />
+    <Content Include="dist\schedule.bundle.js" />
+    <Content Include="dist\speakerBadge.bundle.js" />
+    <Content Include="dist\video.bundle.js" />
     <Content Include="images\speakers\mark-hanson-large.jpg" />
     <Content Include="registered.htm" />
     <Content Include="Global.asax" />
@@ -149,6 +158,7 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
+    <Content Include="webpack.config.js" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\RegistrationController.cs" />
@@ -170,8 +180,20 @@
     <Content Include="Live\socket.ashx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="package.json" />
+    <Content Include="dist\feedback.bundle.js.map" />
+    <Content Include="dist\live.bundle.js.map" />
+    <Content Include="dist\location.bundle.js.map" />
+    <Content Include="dist\locationVenue.bundle.js.map" />
+    <Content Include="dist\offline.bundle.js.map" />
+    <Content Include="dist\register.bundle.js.map" />
+    <Content Include="dist\schedule.bundle.js.map" />
+    <Content Include="dist\speakerBadge.bundle.js.map" />
+    <Content Include="dist\video.bundle.js.map" />
     <None Include="packages.config" />
+    <Content Include="Readme.md" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

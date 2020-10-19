@@ -1,5 +1,5 @@
-﻿# Laboratorio Módulo 7: Creating Objects and Methods by Using JavaScript
-## Exercise 1: Refactoring JavaScript Code to Use Classes and Objects
+﻿# Laboratorio Módulo 14: Performing Background Processing by Using Web Workers
+## Exercise 1: Improving Responsiveness by Using a Web Worker
 ### Nombres y apellidos:
 Miguel Ángel Cabrero Luengo
 ### Fecha:
@@ -7,22 +7,26 @@ Miguel Ángel Cabrero Luengo
 ### Resumen del Ejercicio:
 
 #### Objetivo del ejercicio:
-Refactorizar el código de jscript para utilizar clases y objetos.
+Permite arrastrar una imagen sobre una tarjeta con datos de un conferenciante.
+
+Una vez que la imagen es recibida se convierte a blanco y negro.
+
+El proceso de carga de la imagen  se realiza de forma asincrona y no bloquea el navegador.
 
 #### Tareas realizadas:
 
-En el fichero schedule.js donde se encuentra el código jscript, se realizan los siguientes cambios:
-
-- Las variables utilizadas se reemplazan por constructores a objetos.
-
-- Las funciones se reemplazan por métodos.
-
-- Finalmente se define un objeto que engloba los cambios anteriores.
+En el fichero grayscale.js se utiliza un objeto canvas para recepcionar la foto y convertirla en blanco y negro.
 
 Resultados de ejecución:
 
-#### Pantalla Schedule:
-<img src="images/resultados/01.png">
+#### Pantalla speaker-badge inicial:
+<img src="images/01.png">
+
+#### Pantalla speaker-badge durante el proceso de carga:
+<img src="images/02.png">
+
+#### Pantalla speaker-badge tras el proceso de carga:
+<img src="images/03.png">
 
 ### Dificultad o problemas presentados y cómo se resolvieron:
 No ha presentado problemas.
@@ -30,4 +34,4 @@ No ha presentado problemas.
 
 Puede probarse con los siguientes enlaces:
 
-- Página <a href="schedule.htm" target="_blank">schedule</a>.
+- Página <a href="speaker-badge.htm" target="_blank">speaker-badge</a>.
